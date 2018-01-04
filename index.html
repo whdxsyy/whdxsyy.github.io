@@ -316,52 +316,6 @@
 </div>
 </div>
 </section>
-<?php
-/**
- * Created by PhpStorm.
- * User: yysun
- * Date: 2017/7/21
- * Time: 17:42
- */
-if(isset($_GET["name"])){
-    echo  "<h2>".htmlspecialchars($_GET["name"])."</h2>";
-}
-?>
- <script>
-     $("#test").click(function(){
-         $.ajax(
-             {
-                 type: "GET",
-                 url: "/YYtools/index.php",
-                 data:{
-                     name: "shit,i can do it!"
-                 },
-                 success: function(data){
-                  alert(data);
-                 }
-             }
-         )
-//         if (window.XMLHttpRequest)
-//         {
-//             // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行的代码
-//             xmlhttp=new XMLHttpRequest();
-//         }
-//         else
-//         {
-//             //IE6, IE5 浏览器执行的代码
-//             xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-//         }
-//         xmlhttp.onreadystatechange=function()
-//         {
-//             if (xmlhttp.readyState==4 && xmlhttp.status==200)
-//             {
-//                 alert(xmlhttp.responseText);
-//             }
-//         }
-//         xmlhttp.open("GET","/YYtools/action.php?name='asd'",true);
-//         xmlhttp.send();
-     });
- </script>
 
 <section class="portfolio-area section-padding" id="portfolio">
 <div class="container">
