@@ -254,6 +254,7 @@ Services
     border: 2px solid #222;
     border-radius: 5px;
     color: #222;
+    outline: none;
 }
 .pf-hover {
     background-color: #fff;

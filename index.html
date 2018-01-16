@@ -27,7 +27,7 @@
 </head>
 <body>
 
-<!---<div id="loading" class="cube-preloader">
+-<div id="loading" class="cube-preloader">
 <div id="loading-center">
 <div id="loading-center-absolute">
 <div class="object" id="object_one"></div>
@@ -66,7 +66,7 @@
  
 <div class="collapse navbar-collapse" id="mobile-toggle">
 <ul class="nav navbar-nav">
-<!--<li class="dropdown active">-->
+<!--<li class="dropdown active">
 <!--<a href="#home"  class="smooth-scroll">主页 <b class="caret"></b></a>-->
 <!--<ul class="dropdown-menu">-->
 <!--<li><a href="index.php">Home Default</a></li>-->
@@ -74,7 +74,7 @@
 <!--<li><a href="#">Home Parallax</a></li>-->
 <!--<li><a href="#">Home Video</a></li>-->
 <!--</ul>-->
-</li>
+<!-- </li> -->
 
 <li><a class="smooth-scroll" href="#home">主页</a></li>
 <!--<li><a class="smooth-scroll" href="#features">Features</a></li>-->
@@ -84,7 +84,7 @@
 <!--<li><a class="smooth-scroll" href="#team">Team</a></li>-->
 <!--<li><a class="smooth-scroll" href="#pricing">Pricing</a></li>-->
 <li><a class="smooth-scroll" href="#blog">最近更新</a></li>
-<li><a class="smooth-scroll" href="#contact">联系我们</a></li>
+<li><a class="smooth-scroll" href="#contact">与我联系</a></li>
 </ul>
 </div> 
 </div>
@@ -316,52 +316,6 @@
 </div>
 </div>
 </section>
-<?php
-/**
- * Created by PhpStorm.
- * User: yysun
- * Date: 2017/7/21
- * Time: 17:42
- */
-if(isset($_GET["name"])){
-    echo  "<h2>".htmlspecialchars($_GET["name"])."</h2>";
-}
-?>
- <script>
-     $("#test").click(function(){
-         $.ajax(
-             {
-                 type: "GET",
-                 url: "/YYtools/index.php",
-                 data:{
-                     name: "shit,i can do it!"
-                 },
-                 success: function(data){
-                  alert(data);
-                 }
-             }
-         )
-//         if (window.XMLHttpRequest)
-//         {
-//             // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行的代码
-//             xmlhttp=new XMLHttpRequest();
-//         }
-//         else
-//         {
-//             //IE6, IE5 浏览器执行的代码
-//             xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-//         }
-//         xmlhttp.onreadystatechange=function()
-//         {
-//             if (xmlhttp.readyState==4 && xmlhttp.status==200)
-//             {
-//                 alert(xmlhttp.responseText);
-//             }
-//         }
-//         xmlhttp.open("GET","/YYtools/action.php?name='asd'",true);
-//         xmlhttp.send();
-     });
- </script>
 
 <section class="portfolio-area section-padding" id="portfolio">
 <div class="container">
@@ -369,18 +323,18 @@ if(isset($_GET["name"])){
 <div class="row">
 <div class="col-sm-12">
 <div class="section-heading text-center wow fadeInUp">
-<h2>工具列表</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<h2>技能列表</h2>
+<p>下面列出本人工作以来做的一些研究内容</p>
 </div>
 </div>
 </div>
 <div class="row">
 <div class="controls wow fadeInUp">
-<button type="button" data-filter="all">All</button>
-<button type="button" data-filter=".ux">UI/UX</button>
-<button type="button" data-filter=".graphic">Graphic</button>
-<button type="button" data-filter=".web">web</button>
-<button type="button" data-filter=".interior">interior</button>
+<button type="button" data-filter="all">全部内容</button>
+<button type="button" data-filter=".ux">GIS辅助规划</button>
+<button type="button" data-filter=".graphic">大数据辅助规划</button>
+<button type="button" data-filter=".web">软件开发</button>
+<button type="button" data-filter=".interior">平台开发</button>
 </div>
 </div>
 <div class="row">
@@ -634,7 +588,7 @@ if(isset($_GET["name"])){
 </button>
 </div>
 <div class="modal-body">
-<iframe src="" allowfullscreen></iframe>
+<iframe src="assets/video/mov_bbb.ogg" allowfullscreen></iframe>
 </div>
 </div>
 </div>
@@ -898,13 +852,16 @@ if(isset($_GET["name"])){
  
 <div class="col-md-3 col-sm-6">
 <div class="footer-widget wow fadeInUp">
-<h4>Get in touch</h4>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard...</p>
+<h4>与我联系</h4>
+<p>有什么需要可以与我联系交流！</p>
 <ul>
-<li><a href="#"><i class="pe-7s-mail"></i> <span class="__cf_email__" data-cfemail="4d24232b220d3a282f202c2421632e2220">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></li>
-<li><a href="#"><i class="pe-7s-call"></i> +00 11 22 33 44</a></li>
-<li><a href="#"><i class="pe-7s-map-marker"></i> 121/7, New York, UK</a></li>
-<li><a href="#"><i class="pe-7s-global"></i> cubedomain.com</a></li>
+<li>
+    <a href="#"><i class="pe-7s-mail"></i> 
+    <span class="__cf_email__"> whdx_syy@163.com</span></a>
+ </li>
+<li><a href="#"><i class="pe-7s-call"></i> +86 17602198959</a></li>
+<li><a href="#"><i class="pe-7s-map-marker"></i> 上海杨浦区中山北二路1111号</a></li>
+<li><a href="#"><i class="pe-7s-global"></i> syygeo.top</a></li>
 </ul>
 </div>
 </div>
@@ -979,8 +936,8 @@ Lorem Ipsum is simply for dummy text of printing.
  
 
  
-<!---<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyBc3A_hq2sFzMkASyC0IFih2680tAP-Cec"></script>
-<script src="assets/js/maplace.min.js"></script>--->
+<!-- <!---<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyBc3A_hq2sFzMkASyC0IFih2680tAP-Cec"></script>
+<script src="assets/js/maplace.min.js"></script>---> -->
  
 <script src="assets/js/mixitup.min.js"></script>
  
