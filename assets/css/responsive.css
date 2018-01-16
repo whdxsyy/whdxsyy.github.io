@@ -284,7 +284,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .controls {
-        width: 65%;
+        width: 80%;
     }
 
     .portfolio-wrapper {
