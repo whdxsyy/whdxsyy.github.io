@@ -1,4 +1,4 @@
-@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-Italic.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-Italic.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-Italic.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-Italic.ttf') format('truetype');font-weight:normal;font-style:italic;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-Medium.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-Medium.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-Medium.ttf') format('truetype');font-weight:500;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-CondensedBlack.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-CondensedBlack.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-CondensedBlack.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-CondensedBlack.ttf') format('truetype');font-weight:900;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-BoldItalic.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-BoldItalic.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-BoldItalic.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-BoldItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue.ttf') format('truetype');font-weight:normal;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.ttf') format('truetype');font-weight:100;font-style:italic;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-Bold.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-Bold.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('assets/fonts/helvetica-neue/HelveticaNeue-LightItalic.eot');src:url('assets/fonts/helvetica-neue/HelveticaNeue-LightItalic.eot?#iefix') format('embedded-opentype'),url('assets/fonts/helvetica-neue/HelveticaNeue-LightItalic.woff') format('woff'),url('assets/fonts/helvetica-neue/HelveticaNeue-LightItalic.ttf') format('truetype');font-weight:300;font-style:italic;}*{padding:0;margin:0;}body{line-height:24px;font-family:'Helvetica Neue',sans-serif;}img{border:none;outline:none;max-width:100%;}a,a:active,a:focus,a:hover{outline:none;text-decoration:none;}.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{background-color:inherit;color:#555;}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{background-color:inherit;}a{-webkit-transition:all 0.35s ease-in-out;transition:all 0.35s ease-in-out;}input:focus,textarea:focus,select:focus{outline:none!important;box-shadow:none;}ul{margin:0;list-style-type:none;}h1,h2,h3,h4,h5,h6{margin:0;padding:0;color:#636363;}h5{font-size:16px;}h4{font-size:20px;font-weight:700;color:#222222;}h3{font-size:30px;font-weight:700;color:#222222;}h2{font-size:50px;}.section-padding{padding:80px 0px;}.section-heading{padding:0 0 25px;position:relative;}.section-heading h2{color:#000;font-size:40px;font-weight:700;padding:0 0 25px;text-transform:uppercase;}.section-heading::after{background-image:url("assets/images/sec-arrow.png");content:"";height:13px;left:49%;position:absolute;top:65px;width:60px;z-index:-1;}.section-heading>p{color:#666666;font-family:"Lora",serif;margin:25px auto 0;width:70%;}.header-area{height:auto;}.logo{padding:20px 0;transition:all 0.3s ease 0s;}.logo a{font-size:30px;color:#222222;}.logo h3{transition:all 0.3s ease 0s;}.top-nav-collapse .logo{padding:5px;}.top-nav-collapse .logo a h3{font-size:25px;}nav.navbar{background-color:#fff;border:0 none;padding:15px 0;margin:0px;}@media(min-width:767px) {
+@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-Italic.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-Italic.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-Italic.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-Italic.ttf') format('truetype');font-weight:normal;font-style:italic;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-Medium.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-Medium.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-Medium.ttf') format('truetype');font-weight:500;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-CondensedBlack.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-CondensedBlack.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-CondensedBlack.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-CondensedBlack.ttf') format('truetype');font-weight:900;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-BoldItalic.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-BoldItalic.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-BoldItalic.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-BoldItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue.eot');src:url('../fonts/helvetica-neue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue.ttf') format('truetype');font-weight:normal;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-UltraLightItalic.ttf') format('truetype');font-weight:100;font-style:italic;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-Bold.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-Bold.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}@font-face{font-family:'Helvetica Neue';src:url('../fonts/helvetica-neue/HelveticaNeue-LightItalic.eot');src:url('../fonts/helvetica-neue/HelveticaNeue-LightItalic.eot?#iefix') format('embedded-opentype'),url('../fonts/helvetica-neue/HelveticaNeue-LightItalic.woff') format('woff'),url('../fonts/helvetica-neue/HelveticaNeue-LightItalic.ttf') format('truetype');font-weight:300;font-style:italic;}*{padding:0;margin:0;}body{line-height:24px;font-family:'Helvetica Neue',sans-serif;}img{border:none;outline:none;max-width:100%;}a,a:active,a:focus,a:hover{outline:none;text-decoration:none;}.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{background-color:inherit;color:#555;}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{background-color:inherit;}a{-webkit-transition:all 0.35s ease-in-out;transition:all 0.35s ease-in-out;}input:focus,textarea:focus,select:focus{outline:none!important;box-shadow:none;}ul{margin:0;list-style-type:none;}h1,h2,h3,h4,h5,h6{margin:0;padding:0;color:#636363;}h5{font-size:16px;}h4{font-size:20px;font-weight:700;color:#222222;}h3{font-size:30px;font-weight:700;color:#222222;}h2{font-size:50px;}.section-padding{padding:80px 0px;}.section-heading{padding:0 0 25px;position:relative;}.section-heading h2{color:#000;font-size:40px;font-weight:700;padding:0 0 25px;text-transform:uppercase;}.section-heading::after{background-image:url("../images/sec-arrow.png");content:"";height:13px;left:49%;position:absolute;top:65px;width:60px;z-index:-1;}.section-heading>p{color:#666666;font-family:"Lora",serif;margin:25px auto 0;width:70%;}.header-area{height:auto;}.logo{padding:20px 0;transition:all 0.3s ease 0s;}.logo a{font-size:30px;color:#222222;}.logo h3{transition:all 0.3s ease 0s;}.top-nav-collapse .logo{padding:5px;}.top-nav-collapse .logo a h3{font-size:25px;}nav.navbar{background-color:#fff;border:0 none;padding:15px 0;margin:0px;}@media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -89,10 +89,10 @@ Slider
     height: 100vh;
 }
 .slide-bg-1{
-    background-image: url("assets/images/slide1.jpg");
+    background-image: url("../images/slide1.jpg");
 }
 .slide-bg-2{
-    background-image: url("assets/images/slide2.jpg");
+    background-image: url("../images/slide2.jpg");
 }
 
 .tabel {
@@ -240,7 +240,7 @@ Services
 */
 .controls {
     margin: 30px auto;
-    width: 44%;
+    width: 60%;
 }
 .controls > button {
     background-color: inherit;
@@ -344,7 +344,7 @@ Video
 ==================
 */
 .video-area, .cta-area {
-    background-image: url("assets/images/video-bg.jpg");
+    background-image: url("../images/video-bg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,7 +438,7 @@ CTA
 ==================
 */
 .cta-area {
-    background-image: url("assets/images/cta-bg.jpg");
+    background-image: url("../images/cta-bg.jpg");
     color: #fff;
     padding: 200px 0;
 }
@@ -666,7 +666,7 @@ Pages Css
     padding-bottom: 25px;
 }
 .page-header-wrapper h4::after {
-    background-image: url("assets/images/page-arrow.png");
+    background-image: url("../images/page-arrow.png");
     content: "";
     height: 13px;
     left: 48%;
